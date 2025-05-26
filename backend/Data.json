@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Introduction to MERN Stack",
+    "content": "MERN stack is a powerful combination of MongoDB, Express, React, and Node.js.",
+    "category": "Web Development",
+    "author": "Sarath Kumar",
+    "image": "https://example.com/images/mern-stack.jpg",
+    "createdAt": "2025-05-22T10:00:00Z",
+    "updatedAt": "2025-05-22T10:00:00Z"
+  },
+  {
+    "title": "Understanding JavaScript Closures",
+    "content": "Closures are functions that have access to variables from another function’s scope.",
+    "category": "JavaScript",
+    "author": "Jane Doe",
+    "image": "https://example.com/images/js-closures.png",
+    "createdAt": "2025-05-21T09:30:00Z",
+    "updatedAt": "2025-05-21T09:30:00Z"
+  },
+  {
+    "title": "Tips for Effective Remote Work",
+    "content": "Create a dedicated workspace, set a schedule, and minimize distractions.",
+    "category": "Productivity",
+    "author": "John Smith",
+    "image": "",
+    "createdAt": "2025-05-20T08:45:00Z",
+    "updatedAt": "2025-05-20T08:45:00Z"
+  },
+  {
+    "title": "CSS Grid vs Flexbox",
+    "content": "Learn the differences between CSS Grid and Flexbox layout techniques.",
+    "category": "CSS",
+    "author": "Emily Clark",
+    "image": "https://example.com/images/css-grid-flexbox.jpg",
+    "createdAt": "2025-05-19T14:20:00Z",
+    "updatedAt": "2025-05-19T14:20:00Z"
+  },
+  {
+    "title": "Getting Started with TypeScript",
+    "content": "TypeScript extends JavaScript by adding types for better code quality.",
+    "category": "Programming",
+    "author": "Michael Lee",
+    "image": "",
+    "createdAt": "2025-05-18T13:00:00Z",
+    "updatedAt": "2025-05-18T13:00:00Z"
+  },
+  {
+    "title": "How to Use React Hooks",
+    "content": "Hooks let you use state and other React features without writing a class.",
+    "category": "React",
+    "author": "Sophia Patel",
+    "image": "https://example.com/images/react-hooks.jpg",
+    "createdAt": "2025-05-17T12:15:00Z",
+    "updatedAt": "2025-05-17T12:15:00Z"
+  },
+  {
+    "title": "Node.js Event Loop Explained",
+    "content": "Understand the Node.js event loop and how asynchronous code runs.",
+    "category": "Node.js",
+    "author": "David Kim",
+    "image": "",
+    "createdAt": "2025-05-16T10:50:00Z",
+    "updatedAt": "2025-05-16T10:50:00Z"
+  },
+  {
+    "title": "Building REST APIs with Express",
+    "content": "Express.js is a minimalist framework to build robust REST APIs quickly.",
+    "category": "Backend",
+    "author": "Sara Gomez",
+    "image": "https://example.com/images/express-api.jpg",
+    "createdAt": "2025-05-15T11:30:00Z",
+    "updatedAt": "2025-05-15T11:30:00Z"
+  },
+  {
+    "title": "Understanding MongoDB Aggregation",
+    "content": "Learn how to use MongoDB aggregation framework for complex queries.",
+    "category": "Database",
+    "author": "Liam Wong",
+    "image": "",
+    "createdAt": "2025-05-14T09:40:00Z",
+    "updatedAt": "2025-05-14T09:40:00Z"
+  },
+  {
+    "title": "Deploying MERN Apps on Heroku",
+    "content": "Step-by-step guide to deploy your MERN stack application on Heroku.",
+    "category": "Deployment",
+    "author": "Nina Roberts",
+    "image": "https://example.com/images/heroku-deploy.jpg",
+    "createdAt": "2025-05-13T08:25:00Z",
+    "updatedAt": "2025-05-13T08:25:00Z"
+  }
+]
