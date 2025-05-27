@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import Post from '../components/Post';
 import axios from 'axios';
 
+
 export default function PostList() {
 	const [posts, setPosts] = useState([]);
 
 	const fetchPosts = async () => {
 		try {
-			const response = await axios.get('http://172.17.72.68:8000/api/posts');
+			const response = await axios.get('http://localhost:8000/api/posts');
 			setPosts(response.data);
 		} catch (error) {
 			console.error('Error fetching posts:', error);
@@ -20,37 +21,12 @@ export default function PostList() {
 
 	return (
 		<>
-			<header>
-				<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-					<div className="container">
-						<a className="navbar-brand" href="#">My Blog</a>
-						<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span className="navbar-toggler-icon"></span>
-						</button>
-						<div className="collapse navbar-collapse" id="navbarNav">
-							<ul className="navbar-nav ms-auto">
-								<li className="nav-item">
-									<a className="nav-link active" aria-current="page" href="#">Home</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">Posts</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">About</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">Contact</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</header>
+			
 
 			<main>
 				<div className="container mt-4">
 					<div className="row">
+						{/* Posts Section */}
 						<div className="col-lg-8">
 							<h1 className="mb-4">Latest Posts</h1>
 							{posts.map((post) => (
@@ -58,11 +34,14 @@ export default function PostList() {
 							))}
 						</div>
 
+						{/* Sidebar Section */}
 						<div className="col-lg-4">
 							<div className="card mb-4">
 								<div className="card-body">
-									<h5 className="card-title">About Me</h5>
-									<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<h5 className="card-title">Welcome</h5>
+									<p className="card-text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</p>
 								</div>
 							</div>
 
@@ -77,15 +56,12 @@ export default function PostList() {
 								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</main>
 
-			<footer className="bg-dark text-white text-center py-3 fixed-bottom">
-				<div className="container">
-					<p>&copy; 2024 My Blog. All rights reserved.</p>
-				</div>
-			</footer>
+			
 		</>
 	);
 }
